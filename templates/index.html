@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Loan Prediction</h1>
+
+    <form method="POST" action="/">
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+        </select>
+
+        <label for="married">Married:</label>
+        <select name="married" id="married">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+
+        <label for="dependents">Dependents:</label>
+        <select name="dependents" id="dependents">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3+">3+</option>
+        </select>
+
+        <label for="self_employed">Self Employed:</label>
+        <select name="self_employed" id="self_employed">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+
+        <label for="education">Education:</label>
+        <select name="education" id="education">
+            <option value="1">Graduate</option>
+            <option value="0">Not Graduate</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if prediction %}
+        <div class="prediction">
+            <p>Prediction: {{ prediction }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,51 @@
+loan id,gender,married,dependents,self employed,education,loan status
+101,m,yes,2,no,graduate,approved 
+102,m,yes,3,no,graduate,approved 
+103,f,yes,3,yes,not graduate,not approved 
+104,f,no,0,yes,not graduate,approved 
+105,m,no,0,no,graduate,approved 
+106,m,no,0,yes,not graduate,approved 
+107,f,no,0,no,graduate,approved 
+108,m,no,1,yes,not graduate,approved 
+109,f,yes,1,no,graduate,approved 
+110,f,yes,0,no,graduate,approved 
+111,f,yes,0,no,graduate,approved 
+112,m,no,1,no,graduate,approved 
+113,m,no,0,yes,not graduate,approved 
+114,f,yes,0,yes,not graduate,approved 
+115,f,no,0,no,graduate,approved 
+116,m,yes,1,no,graduate,approved 
+117,m,yes,1,no,graduate,not approved 
+118,f,yes,1,no,graduate,approved 
+119,m,no,1,no,graduate,not approved 
+120,f,no,1,no,graduate,not approved 
+121,f,no,0,no,graduate,approved 
+122,f,no,0,no,graduate,approved 
+123,m,no,0,no,graduate,not approved 
+124,m,yes,1,no,graduate,not approved 
+125,f,yes,1,yes,not graduate,not approved 
+126,f,yes,2,no,graduate,not approved 
+127,m,no,3,no,graduate,not approved 
+128,m,no,0,yes,not graduate,not approved 
+129,f,yes,0,no,graduate,not approved 
+130,m,no,0,no,graduate,not approved 
+131,f,yes,2,no,graduate,approved 
+132,f,yes,3,yes,not graduate,approved 
+133,f,yes,2,no,graduate,approved 
+134,m,no,3,no,graduate,approved 
+135,m,no,2,no,graduate,approved 
+136,f,no,3,no,graduate,approved 
+137,f,no,2,no,graduate,approved 
+138,m,no,3,yes,not graduate,approved 
+139,m,yes,1,yes,not graduate,approved 
+140,f,yes,1,yes,not graduate,approved 
+141,m,yes,1,yes,not graduate,approved 
+142,f,no,1,yes,not graduate,not approved 
+143,f,no,0,no,graduate,approved 
+144,f,yes,0,no,graduate,not approved 
+145,m,no,0,no,graduate,approved 
+146,m,no,0,no,graduate,not approved 
+147,f,no,0,no,graduate,approved 
+148,f,no,0,no,graduate,approved 
+149,m,no,0,no,graduate,not approved 
+150,f,no,0,no,graduate,approved 
